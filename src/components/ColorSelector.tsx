@@ -173,11 +173,11 @@ export default function ColorSelector() {
 
     return (
         <section id="teintes" className="relative w-full py-24 md:py-32 bg-ivory text-obsidian overflow-hidden border-t border-black/5">
-            <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24 items-start">
+            <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
 
                 {/* Left: Realistic Hand Preview (Canvas) */}
                 <div className="lg:col-span-5 order-2 lg:order-1 relative flex flex-col items-center">
-                    <div className="w-full aspect-[3/4] rounded-[2.5rem] overflow-hidden shadow-2xl relative bg-[#e3ded8] border border-black/5">
+                    <div className="w-full aspect-[3/4] rounded-3xl overflow-hidden shadow-md relative bg-[#e3ded8] border border-black/5">
                         <div className="absolute top-6 left-6 z-20 glass-panel !bg-white/60 !backdrop-blur-xl px-4 py-2 rounded-full border border-white/40 shadow-xl flex items-center gap-2">
                             <span
                                 className="w-3 h-3 rounded-full border border-black/10 transition-colors duration-500"
@@ -236,7 +236,7 @@ export default function ColorSelector() {
                                 <button
                                     key={`${activeGroupIndex}-${colorIdx}`}
                                     onClick={() => setSelectedColor(color)}
-                                    className={`relative w-8 h-10 sm:w-10 sm:h-12 rounded-xl group transition-all duration-300 ${selectedColor === color ? 'scale-110 z-10 shadow-lg ring-2 ring-offset-2 ring-obsidian' : 'hover:scale-105 hover:shadow-md'
+                                    className={`relative w-8 cursor-pointer h-10 sm:w-10 sm:h-12 rounded-xl group transition-all duration-300 ${selectedColor === color ? 'scale-110 z-10 shadow-lg ring-2 ring-offset-2 ring-obsidian' : 'hover:scale-105 hover:shadow-md'
                                         }`}
                                     style={{ backgroundColor: color }}
                                     aria-label={`Teinte ${color}`}

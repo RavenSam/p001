@@ -15,8 +15,8 @@ export default function Home() {
       <div className="relative z-10 bg-ivory border-t border-obsidian/5 rounded-t-[3rem] -mt-10 overflow-hidden shadow-[0_-20px_50px_rgba(0,0,0,0.1)]">
         <Features />
       </div>
-      <ColorSelector />
       <Philosophy />
+      <ColorSelector />
       <Protocol />
       <StoreLocator />
       <Footer />

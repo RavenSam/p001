@@ -9,9 +9,9 @@ export default function Footer() {
                     <Image
                         src="/images/logo transparent bg.png"
                         alt="MSDI Logo"
-                        width={120}
-                        height={48}
-                        className="object-contain w-auto h-10 md:h-12 mb-4 opacity-90"
+                        width={450}
+                        height={200}
+                        className="object-contain h-auto w-60 mb-4 opacity-90"
                     />
                     <p className="text-sm font-light text-obsidian/60 max-w-xs text-center md:text-left">
                         L'Excellence Made in Algeria. Redéfinir les standards de la cosmétique avec précision et passion.

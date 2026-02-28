@@ -56,24 +56,24 @@ export default function Hero() {
             <div className="max-w-7xl mx-auto w-full z-10 relative">
 
                 {/* Text Column */}
-                <div className="flex md:pl-16 flex-col items-center md:items-start text-center md:text-left space-y-8 md:max-w-xl lg:max-w-3xl relative z-20">
+                <div className="flex md:pl-26 flex-col items-center md:items-start text-center md:text-left space-y-8 md:max-w-xl lg:max-w-3xl relative z-20">
                     <h1
                         ref={headlineRef}
                         className="flex flex-col gap-2 perspective-1000"
                     >
-                        <span className="hero-line block text-4xl md:text-6xl lg:text-7xl font-sans font-light tracking-tight text-obsidian/90">
+                        <span className="hero-line block text-3xl md:text-4xl xl:text-5xl font-sans font-light tracking-tight text-obsidian/90">
                             L'excellence absolue
                         </span>
-                        <span className="hero-line block text-5xl sm:text-6xl md:text-8xl lg:text-8xl xl:text-[7.5rem] font-serif italic text-rubis drop-shadow-sm mt-2 leading-[0.9] sm:whitespace-nowrap">
+                        <span className="hero-line block text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[6.5rem] font-serif italic text-rubis drop-shadow-sm mt-2 leading-[0.9] sm:whitespace-nowrap">
                             Savoir-Faire.
                         </span>
                     </h1>
 
                     <p
                         ref={subRef}
-                        className="max-w-md md:max-w-xl text-lg md:text-xl text-obsidian/90 font-medium tracking-wide leading-relaxed"
+                        className="max-w-md md:max-w-xl text-lg text-obsidian/90 font-medium tracking-wide leading-relaxed"
                     >
-                        La première marque de cosmétique et de soins des ongles 100% Algérienne.<br />
+                        La première marque de cosmétique et de soins des ongles 100% Algérienne.
                         L'alliance parfaite entre l'artisanat d'exception, l'innovation et l'élégance moderne.
                     </p>
 
@@ -105,7 +105,7 @@ export default function Hero() {
                 />
 
                 {/* Fade Overlay (Desktop) */}
-                <div className="hidden md:block absolute inset-y-0 left-0 w-1/2 bg-gradient-to-r from-ivory via-ivory/80 to-transparent" />
+                <div className="hidden md:block md:ml-20 absolute inset-y-0 left-0 w-[35%] bg-gradient-to-r from-ivory via-ivory/80 to-transparent" />
 
                 {/* Optional subtle depth */}
                 <div className="absolute inset-0 bg-white/50 backdrop-blur-sm md:hidden" />
