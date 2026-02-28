@@ -3,7 +3,7 @@ import { ImageResponse } from 'next/og';
 export const runtime = 'edge';
 
 export const alt = "MSDI Product Algérie | L'Excellence Made in Algeria";
-export const size = { width: 1200, height: 630 };
+export const size = { width: 1376, height: 768 };
 export const contentType = 'image/png';
 
 export default async function Image() {
