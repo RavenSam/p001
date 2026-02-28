@@ -3,6 +3,7 @@
 # dependencies
 /node_modules
 /temp-app
+/GEMINI.md
 /.pnp
 .pnp.*
 .yarn/*
