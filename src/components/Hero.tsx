@@ -97,10 +97,10 @@ export default function Hero() {
 
                 {/* Image */}
                 <Image
-                    src="/images/hero_bottle.png"
+                    src="/images/hero_bottle.jpeg"
                     alt="Premium MSDI Nail Polish Bottle"
                     fill
-                    className="object-cover object-[center_right]"
+                    className="object-cover object-center md:ml-20"
                     priority
                 />
 

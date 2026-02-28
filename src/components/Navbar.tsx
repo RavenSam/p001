@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import gsap from "gsap";
 import { Store } from "lucide-react";
 
@@ -28,12 +29,21 @@ export default function Navbar() {
     return (
         <nav
             ref={navRef}
-            className={`fixed opacity-0 top-6 left-1/2 -translate-x-1/2 w-[90%] max-w-6xl rounded-full p-3 flex items-center justify-between z-50 transition-all duration-500 ${isScrolled ? "glass-panel backdrop-blur-sm shadow-2xl px-10" : "bg-transparent border border-transparent"
+            className={`fixed opacity-0 top-6 left-1/2 -translate-x-1/2 w-[90%] max-w-6xl rounded-full px-3 flex items-center justify-between z-50 transition-all duration-500 ${isScrolled ? "glass-panel backdrop-blur-sm shadow-2xl px-10" : "bg-transparent border border-transparent"
                 }`}
         >
             <div className="flex items-center gap-2">
-                <Link href="/" className="font-serif text-xl tracking-wide text-rubis shrink-0">
-                    MSDI
+                <Link href="/" className="shrink-0 flex items-center">
+                    <Image
+                        src="/images/logo.png"
+                        alt="MSDI Logo"
+                        width={80}
+                        height={80}
+                        className="object-contain h-auto w-8 transition-transform duration-300"
+                        priority
+                    />
+
+                    <span className="text-2xl font-bold text-obsidian/90 ml-3 hidden sm:block">MSDI</span>
                 </Link>
             </div>
 

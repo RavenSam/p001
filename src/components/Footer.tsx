@@ -1,10 +1,18 @@
+import Image from "next/image";
+
 export default function Footer() {
     return (
         <footer className="w-full bg-ivory text-obsidian py-16 px-6 border-t border-black/10">
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center md:items-start gap-8">
 
                 <div className="flex flex-col items-center md:items-start">
-                    <span className="font-serif text-3xl tracking-wide text-rubis mb-4">MSDI</span>
+                    <Image
+                        src="/images/logo transparent bg.png"
+                        alt="MSDI Logo"
+                        width={120}
+                        height={48}
+                        className="object-contain w-auto h-10 md:h-12 mb-4 opacity-90"
+                    />
                     <p className="text-sm font-light text-obsidian/60 max-w-xs text-center md:text-left">
                         L'Excellence Made in Algeria. Redéfinir les standards de la cosmétique avec précision et passion.
                     </p>
