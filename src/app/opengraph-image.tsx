@@ -3,7 +3,7 @@ import { ImageResponse } from 'next/og';
 export const runtime = 'edge';
 
 export const alt = "MSDI Product Algérie | L'Excellence Made in Algeria";
-export const size = { width: 1376, height: 768 };
+export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
 export default async function Image() {
@@ -21,21 +21,22 @@ export default async function Image() {
                     padding: '80px',
                 }}
             >
-                <div style={{ display: 'flex', color: '#A31D33', fontSize: 36, fontWeight: 'bold', letterSpacing: '0.2em', marginBottom: '30px', fontFamily: 'sans-serif' }}>
+                <div style={{ display: 'flex', color: '#A31D33', fontSize: 42, fontWeight: 'bold', letterSpacing: '0.2em', marginBottom: '30px', fontFamily: 'sans-serif' }}>
                     MSDI PRODUCT ALGÉRIE
                 </div>
                 <div
                     style={{
-                        fontSize: 72,
-                        fontWeight: 800,
+                        fontSize: 84,
+                        fontWeight: 900,
                         color: '#1A1A1A',
                         textAlign: 'center',
-                        lineHeight: 1.2,
+                        lineHeight: 1.1,
                         marginBottom: '60px',
                         fontFamily: 'sans-serif',
+                        letterSpacing: '-0.02em',
                     }}
                 >
-                    L'excellence absolue en<br />cosmétique et soins des ongles.
+                    L'EXCELLENCE ABSOLUE EN<br />COSMÉTIQUE ET SOINS.
                 </div>
                 <div
                     style={{
@@ -43,7 +44,7 @@ export default async function Image() {
                         color: '#FAF8F5',
                         padding: '24px 64px',
                         borderRadius: '999px',
-                        fontSize: 32,
+                        fontSize: 36,
                         fontWeight: 'bold',
                         letterSpacing: '0.1em',
                         textTransform: 'uppercase',
