@@ -29,8 +29,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: '/images/logo with text.jpeg',
-        width: 1376,
-        height: 768,
+        width: 1200,
+        height: 630,
         alt: 'MSDI Product Algérie Logo',
       },
     ],
