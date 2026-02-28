@@ -71,7 +71,7 @@ export default function Hero() {
 
                     <p
                         ref={subRef}
-                        className="max-w-md md:max-w-xl text-lg md:text-xl text-obsidian/70 font-light tracking-wide leading-relaxed"
+                        className="max-w-md md:max-w-xl text-lg md:text-xl text-obsidian/90 font-medium tracking-wide leading-relaxed"
                     >
                         La première marque de cosmétique et de soins des ongles 100% Algérienne.<br />
                         L'alliance parfaite entre l'artisanat d'exception, l'innovation et l'élégance moderne.
@@ -84,7 +84,7 @@ export default function Hero() {
                                 <ArrowDownRight className="w-4 h-4 group-hover:rotate-[-45deg] transition-transform duration-500" />
                             </span>
                         </a>
-                        <a href="#boutique" className="text-xs md:text-sm font-medium tracking-widest uppercase text-obsidian/60 hover:text-rubis transition-colors duration-300 underline-offset-8 decoration-1 hover:underline sm:ml-2">
+                        <a href="#boutique" className="text-xs md:text-sm font-bold tracking-widest uppercase text-obsidian/90 hover:text-rubis transition-colors duration-300 underline-offset-8 decoration-1 hover:underline sm:ml-2">
                             Trouver notre boutique
                         </a>
                     </div>

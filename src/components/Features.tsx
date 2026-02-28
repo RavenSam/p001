@@ -97,6 +97,7 @@ export default function Features() {
 
     return (
         <section id="collections" ref={containerRef} className="py-32 px-6 relative z-10 w-full max-w-7xl mx-auto">
+            <h2 className="sr-only">Points Forts et Collections</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
                 {/* Card 1: Fierté Algérienne / Shuffler */}
@@ -106,8 +107,8 @@ export default function Features() {
                         <h3 className="text-2xl font-serif text-obsidian mb-4 flex items-center gap-2 overflow-hidden h-8">
                             <span className="shuffle-text inline-block">{shuffleWord}</span>
                         </h3>
-                        <h4 className="font-medium tracking-widest uppercase text-xs text-rubis mb-2">Made in Algeria</h4>
-                        <p className="text-sm text-obsidian/70 leading-relaxed font-light">
+                        <h4 className="font-bold tracking-widest uppercase text-xs text-rubis mb-2">Made in Algeria</h4>
+                        <p className="text-sm text-obsidian/90 font-medium leading-relaxed">
                             La première marque cosmétique algérienne à concurrencer l'excellence mondiale, avec une fierté ancrée dans notre patrimoine.
                         </p>
                     </div>
@@ -120,7 +121,7 @@ export default function Features() {
                         <h3 className="text-2xl font-serif text-obsidian mb-4 underline decoration-rubis underline-offset-4 decoration-1">
                             Savoir-faire d'Exception
                         </h3>
-                        <p className="text-sm text-obsidian/70 leading-relaxed font-light min-h-[4rem]">
+                        <p className="text-sm text-obsidian/90 font-medium leading-relaxed min-h-[4rem]">
                             {typedText}<span className="animate-pulse bg-rubis w-[2px] h-4 inline-block ml-1 align-middle"></span>
                         </p>
                     </div>
@@ -131,7 +132,7 @@ export default function Features() {
                     <ShieldCheck className="w-8 h-8 text-rubis mb-12 opacity-80 z-10" />
                     <div className="z-10">
                         <h3 className="text-2xl font-serif text-obsidian mb-4">Innovation & Accessibilité</h3>
-                        <p className="text-sm text-obsidian/70 leading-relaxed font-light">
+                        <p className="text-sm text-obsidian/90 font-medium leading-relaxed">
                             Des produits haut de gamme conçus pour révéler la beauté unique de chaque femme, à un prix pensé pour l'accessibilité.
                         </p>
                     </div>

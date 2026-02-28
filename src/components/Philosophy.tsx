@@ -55,7 +55,7 @@ export default function Philosophy() {
         >
             <div className="max-w-6xl mx-auto px-6 flex flex-col items-center text-center z-10 relative">
                 <div ref={textRef} className="perspective-1000">
-                    <p className="manifesto-line text-sm md:text-base font-medium tracking-widest uppercase text-ivory/60 mb-12">
+                    <p className="manifesto-line text-sm md:text-base font-bold tracking-widest uppercase text-ivory/90 mb-12">
                         Notre Manifeste
                     </p>
 
@@ -66,14 +66,14 @@ export default function Philosophy() {
 
                     <div className="manifesto-line max-w-2xl mx-auto mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 text-left border-t border-ivory/10 pt-12">
                         <div>
-                            <h4 className="font-bold mb-4 font-sans tracking-tight">Le Contraste 01</h4>
-                            <p className="text-ivory/70 text-sm leading-relaxed">
+                            <h3 className="font-bold mb-4 font-sans tracking-tight text-xl">Le Contraste 01</h3>
+                            <p className="text-ivory/90 font-medium text-sm leading-relaxed">
                                 Nous fusionnons l'exigence des plus grands laboratoires mondiaux avec l'authenticité de notre production locale algérienne.
                             </p>
                         </div>
                         <div>
-                            <h4 className="font-bold mb-4 font-sans tracking-tight">Le Contraste 02</h4>
-                            <p className="text-ivory/70 text-sm leading-relaxed">
+                            <h3 className="font-bold mb-4 font-sans tracking-tight text-xl">Le Contraste 02</h3>
+                            <p className="text-ivory/90 font-medium text-sm leading-relaxed">
                                 Le vernis à ongles réinventé. Longue tenue, brillance miroir et formules respectueuses, pour les salons professionnels comme pour vous.
                             </p>
                         </div>
