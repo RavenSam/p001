@@ -16,9 +16,23 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "MSDI Product Algérie | L'Excellence Made in Algeria",
   description: "Découvrez l'excellence de la cosmétique made in Algeria. Les vernis à ongles premium MSDI allient longue tenue, brillance et couleurs éclatantes.",
+  // icons: {
+  //   icon: '/images/favicon.ico',
+  //   apple: '/images/logo no text.png',
+  // },
   icons: {
-    icon: '/images/favicon.ico',
-    apple: '/images/logo no text.png',
+    icon: [
+      {
+        rel: 'icon',
+        url: '/images/logo.svg',
+        media: '(prefers-color-scheme: light)',
+      },
+      {
+        rel: 'icon',
+        url: '/images/logo-white.svg',
+        media: '(prefers-color-scheme: dark)',
+      },
+    ],
   },
   openGraph: {
     title: "MSDI Product Algérie | L'Excellence Made in Algeria",
